@@ -1,0 +1,201 @@
+{
+  "project_name": "PÉREZ SÁNCHEZ & ASOCIADOS - Escritorio Jurídico Penalista",
+  "theme": "Dark and Elegant (Oscuro y Elegante)",
+  "logo": {
+    "url": "https://customer-assets-gfyr7b9c.emergentagent.net/job_8bd7ddc9-78d5-4984-a156-5781461c2748/artifacts/e5fcc0cc3e325e8e_IMG_100789.jpg",
+    "description": "Monograma PS dorado con destellos acero en fondo oscuro texturizado"
+  },
+  "contact": {
+    "phone_display": "+58 424-5245770",
+    "phone_raw": "+584245245770",
+    "whatsapp_url": "https://wa.me/584245245770?text=Hola%20P%C3%A9rez%20S%C3%A1nchez%20%26%20Asociados%2C%20requiero%20asesor%C3%ADa%20penal%20urgente",
+    "location": "Acarigua, Estado Portuguesa, Venezuela",
+    "address_detail": "Av. Alianza con Calle 31, Centro Empresarial Acarigua, Estado Portuguesa"
+  },
+  "typography": {
+    "font_family_heading": "Cormorant Garamond, Bodoni Moda, serif",
+    "font_family_body": "Plus Jakarta Sans, Inter, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-serif tracking-tight leading-tight text-amber-100",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl font-serif tracking-tight text-slate-100",
+    "h3": "text-xl sm:text-2xl font-serif text-amber-200/90",
+    "body": "text-base sm:text-lg text-slate-300 leading-relaxed",
+    "accent_label": "text-xs uppercase tracking-[0.25em] text-amber-400 font-mono font-medium"
+  },
+  "colors": {
+    "background_primary": "#0A0D12",
+    "background_secondary": "#121721",
+    "background_surface": "#1A202C",
+    "brand_gold": "#D4AF37",
+    "brand_gold_light": "#F3E5AB",
+    "brand_gold_dark": "#997A15",
+    "steel_blue": "#1E2A38",
+    "steel_blue_light": "#334155",
+    "accent_whatsapp": "#25D366",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "border_subtle": "rgba(212, 175, 55, 0.15)",
+    "border_active": "rgba(212, 175, 55, 0.4)",
+    "overlay_glass": "rgba(10, 13, 18, 0.75)"
+  },
+  "visual_enhancers": {
+    "background_texture": "Subtle noise overlay with gold radial ambient glow backdrop",
+    "glassmorphism": "backdrop-blur-xl bg-slate-950/80 border border-amber-500/20 shadow-2xl",
+    "border_beam": "1px gold gradient stroke on cards with subtle glow on hover",
+    "button_primary": "bg-gradient-to-r from-amber-500 via-amber-400 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-semibold shadow-lg shadow-amber-500/20 rounded-lg px-6 py-3.5 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]",
+    "button_whatsapp": "bg-emerald-600 hover:bg-emerald-500 text-white font-medium shadow-lg shadow-emerald-600/30 rounded-lg px-6 py-3.5 flex items-center gap-3 transition-all duration-300 hover:scale-[1.02]",
+    "button_call": "border border-amber-400/40 hover:border-amber-400 text-amber-300 hover:bg-amber-500/10 font-medium rounded-lg px-6 py-3.5 flex items-center gap-3 transition-all duration-300"
+  },
+  "component_structure": {
+    "header": {
+      "type": "Fixed glassmorphism nav with blurred backdrop (backdrop-blur-xl bg-slate-950/80)",
+      "contents": ["PS Monogram Logo + 'PÉREZ SÁNCHEZ & ASOCIADOS'", "Nav Links: Áreas de Práctica, Método, Por Qué Elegirnos, Preguntas", "CTAs: Botón directo WhatsApp y Llamar"],
+      "test_id": "nav-header"
+    },
+    "hero": {
+      "type": "Kinetic Hero with masked line-by-line reveal animation via Framer Motion",
+      "tagline": "ESCRITORIO JURÍDICO PENALISTA EN ACARIGUA",
+      "heading": "Defensa Penal de Alto Nivel y Garantía de Derechos en Estado Portuguesa",
+      "description": "Protegemos su libertad, su honra y su patrimonio con rigor técnico, sigilo profesional y presencia inmediata en sedes judiciales.",
+      "ctas": ["Contactar por WhatsApp", "Llamar Inmediatamente (+58 424-5245770)"],
+      "floating_badge": "Atención penal de emergencia 24/7 en Acarigua y Araure",
+      "test_id": "hero-section"
+    },
+    "marquee": {
+      "type": "Slow Editorial Marquee (react-fast-marquee or framer-motion smooth drift)",
+      "items": [
+        "AMPARO CONSTITUCIONAL",
+        "DEFENSA PENAL INTEGRAL",
+        "DELITOS CONTRA LA PROPIEDAD",
+        "DELITOS CORPORATIVOS Y FINANCIEROS",
+        "ASISTENCIA EN AUDIENCIAS Y JUICIOS",
+        "MEDIDAS CAUTELARES Y APELACIONES",
+        "ACARIGUA - PORTUGUESA"
+      ]
+    },
+    "practice_areas_bento": {
+      "type": "Tetris Bento Grid (Mode A) with 6 specialized criminal law areas",
+      "items": [
+        {
+          "title": "Defensa Penal General y Detenciones",
+          "span": "col-span-full md:col-span-8",
+          "description": "Asistencia inmediata en sedes policiales (CICPC, GNB, Policiales), audiencias de presentación e investigación preliminar."
+        },
+        {
+          "title": "Amparo Constitucional y Libertad",
+          "span": "col-span-full md:col-span-4",
+          "description": "Habeas corpus, protección de derechos fundamentales y recursos inmediatos ante violaciones del debido proceso."
+        },
+        {
+          "title": "Delitos Corporativos y Económicos",
+          "span": "col-span-full md:col-span-4",
+          "description": "Defensa estratégica para empresas, directivos y comerciantes en investigaciones fiscales y financieras."
+        },
+        {
+          "title": "Delitos Contra la Propiedad y Personas",
+          "span": "col-span-full md:col-span-8",
+          "description": "Representación técnica rigurosa en acusaciones por apropiación, estafa, lesiones y conflictos complejos."
+        },
+        {
+          "title": "Apelaciones y Cassación Penal",
+          "span": "col-span-full md:col-span-6",
+          "description": "Impugnación de sentencias desfavorables y defensa procesal en Cortes de Apelaciones del Estado Portuguesa y TSJ."
+        },
+        {
+          "title": "Asesoría Preventiva Penal",
+          "span": "col-span-full md:col-span-6",
+          "description": "Mitigación de riesgos jurídicos penal-económicos para empresas e individuos antes de formalizaciones judiciales."
+        }
+      ],
+      "test_id": "practice-areas-section"
+    },
+    "method_steps": {
+      "title": "Metodología Procesal de Defensa",
+      "subtitle": "Un enfoque metódico para salvaguardar su libertad desde la primera hora",
+      "steps": [
+        {"num": "01", "title": "Intervención Inmediata", "desc": "Evaluación del expediente y asistencia urgente en las primeras 24 horas de la medida o citación."},
+        {"num": "02", "title": "Estrategia Defensiva", "desc": "Construcción de la teoría del caso apoyada en pruebas documentales, testimoniales y periciales."},
+        {"num": "03", "title": "Representación en Juicio", "desc": "Litigio firme y articulado en audiencias preliminares y juicio oral con estricto apego al COPP."},
+        {"num": "04", "title": "Seguimiento y Apelación", "desc": "Control exhaustivo del cumplimiento de garantías y recursos de alzada si la causa lo exige."}
+      ],
+      "test_id": "process-steps-section"
+    },
+    "why_us": {
+      "title": "Por Qué Confiar en Pérez Sánchez & Asociados",
+      "points": [
+        {"title": "Especialización Exclusiva Penal", "desc": "Nos dedicamos 100% a la materia penal, lo que garantiza un dominio profundo de la jurisprudencia y del trámite tribunalicio."},
+        {"title": "Presencia Local en Acarigua", "desc": "Ubicación estratégica y acción inmediata ante los Tribunales del Circuito Judicial Penal del Estado Portuguesa."},
+        {"title": "Confidencialidad y Sigilo", "desc": "Mantenemos absoluta reserva profesional y un trato personalizado de alta discreción para cada cliente."},
+        {"title": "Disponibilidad de Emergencia", "desc": "Comunicación directa con abogados penalistas sin intermediarios ni demoras burocráticas."}
+      ],
+      "test_id": "why-us-section"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Asistencia Penal",
+      "items": [
+        {
+          "q": "¿Qué debo hacer si un familiar es detenido en Acarigua?",
+          "a": "Conserve la calma y contáctenos de inmediato por WhatsApp o llamada. Un abogado penalista debe presentarse en la sede de detención para verificar el estado de salud y garantizar que no se vulneren los derechos constitucionales en las primeras 45 horas."
+        },
+        {
+          "q": "¿Atienden emergencias fuera del horario de oficina?",
+          "a": "Sí. Las aprehensiones y procedimientos penales ocurren a cualquier hora. Nuestro canal telefónico y de WhatsApp (+58 424-5245770) está activo para casos penales flagrantes e inminentes."
+        },
+        {
+          "q": "¿Cuál es la ubicación de la firma?",
+          "a": "Nuestra sede principal de atención presencial previa cita está ubicada céntricamente en Acarigua, Estado Portuguesa, cercana a la zona judicial."
+        },
+        {
+          "q": "¿Ofrecen consultas iniciales por WhatsApp?",
+          "a": "Sí, realizamos una orientación inicial inmediata para diagnosticar la gravedad del asunto procesal y coordinar las acciones urgentes requeridas."
+        }
+      ],
+      "test_id": "faq-section"
+    },
+    "contact_cta": {
+      "title": "¿Enfrenta una Situación Penal Compleja en Portuguesa?",
+      "subtitle": "No comprometa su libertad ni posponga la defensa. Hable directamente con un abogado penalista ahora.",
+      "ctas": [
+        {"text": "Enviar Mensaje por WhatsApp", "action": "whatsapp", "icon": "MessageSquare"},
+        {"text": "Llamada Directa de Emergencia", "action": "call", "icon": "PhoneCall"}
+      ],
+      "test_id": "contact-cta-section"
+    },
+    "floating_whatsapp": {
+      "visible": true,
+      "position": "bottom-right",
+      "text": "Atención Urgente",
+      "test_id": "floating-whatsapp-btn"
+    },
+    "footer": {
+      "brand": "PÉREZ SÁNCHEZ & ASOCIADOS",
+      "tagline": "Escritorio Jurídico Penalista • Acarigua, Estado Portuguesa",
+      "phone": "+58 424-5245770",
+      "disclaimer": "La información presentada en esta página es de carácter meramente informativo y no constituye asesoría jurídica formal hasta la firma de representación.",
+      "test_id": "footer-section"
+    }
+  },
+  "image_urls": {
+    "courtroom_bg": "https://images.unsplash.com/photo-1702628771524-25d5174e919b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxjb3VydHJvb20lMjBsYXd5ZXIlMjBqdXN0aWNlJTIwZ2F2ZWwlMjBjcmltaW5hbCUyMGRlZmVuc2UlMjBsZWdhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3OTQ1MzMwNDJ8MA&ixlib=rb-4.1.0&q=85",
+    "gavel_detail": "https://images.unsplash.com/photo-1676181739678-47d76dc38a87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxjb3VydHJvb20lMjBsYXd5ZXIlMjBqdXN0aWNlJTIwZ2F2ZWwlMjBjcmltaW5hbCUyMGRlZmVuc2UlMjBsZWdhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3OTQ1MzMwNDJ8MA&ixlib=rb-4.1.0&q=85",
+    "architectural_hall": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxjb3VydHJvb20lMjBsYXd5ZXIlMjBqdXN0aWNlJTIwZ2F2ZWwlMjBjcmltaW5hbCUyMGRlZmVuc2UlMjBsZWdhbCUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3OTQ1MzMwNDJ8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "motion_guidelines": {
+    "lenis_smooth_scroll": true,
+    "framer_motion_animations": {
+      "hero_line_reveal": "Masked Y translation + opacity stagger (delay 0.1s between lines)",
+      "bento_hover": "Hover scale 1.015 with gold border shadow glow transition",
+      "faq_accordion": "Smooth height spring animation on toggle"
+    }
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Use data-testid attribute on all interactive and key structural components.",
+    "Do NOT use form inputs for contact, since user specified direct WhatsApp and call buttons.",
+    "Ensure high contrast gold-on-dark text readability.",
+    "Do NOT use transparent backgrounds for dropdowns, modals, or fixed navigation bar.",
+    "Use Spanish language for all UI copy.",
+    "Incorporate Lenis smooth scrolling for premium feel.",
+    "Ensure responsive display across mobile and desktop."
+  ]
+}
